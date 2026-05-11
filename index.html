@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 
 <head>
     <meta charset="UTF-8">
@@ -26,18 +26,18 @@
     </header>
 
 
-    
-        <section>
-            <h2>Virsraksti</h2>
-            <!-- Komentārs -->
-            <!-- <h1>Mācos <span>h</span>tml</h1> -->
-            <h2>Otrs virsraksts</h2>
-            <h3>Otrs virsraksts</h3>
-            <h4>Otrs virsraksts</h4>
-            <h5>Otrs virsraksts</h5>
-            <h6>Otrs virsraksts</h6>
-        </section>
-   
+
+    <section>
+        <h2>Virsraksti</h2>
+        <!-- Komentārs -->
+        <!-- <h1>Mācos <span>h</span>tml</h1> -->
+        <h2>Otrs virsraksts</h2>
+        <h3>Otrs virsraksts</h3>
+        <h4>Otrs virsraksts</h4>
+        <h5>Otrs virsraksts</h5>
+        <h6>Otrs virsraksts</h6>
+    </section>
+
 
     <section>
         <h2>Rindkopas</h2>
@@ -115,7 +115,7 @@
                     <td><button>Edit</button></td>
                 </tr>
                 <tr>
-                     <td>user2</td>
+                    <td>user2</td>
                     <td>user2@inbox.lv</td>
                     <td><button>Edit</button></td>
                 </tr>
@@ -125,7 +125,7 @@
                     <td><button>Edit</button></td>
                 </tr>
                 <tr>
-                     <td>user4</td>
+                    <td>user4</td>
                     <td>user4@inbox.lv</td>
                     <td><button>Edit</button></td>
                 </tr>
@@ -143,7 +143,96 @@
         </table>
 
     </section>
+    <section>
+        <h2>Formas</h2>
 
+        <form action="https://formsubmit.co/a798f07f4a2d9eeb940d8920eec5fe90" method="post">
+            <fieldset>
+                <legend>Dati par lietotāju</legend>
+
+                <div>
+                    <label for="vārds">Jūsu vārds:</label>
+                    <input type="text" name="vārds" id="vārds" maxlength="20" minlength="3" required>
+                </div>
+                <div>
+                    <label for="uzvārds">Jūsu uzvārds:</label>
+                    <input type="text" name="uzvārds" id="uzvārds">
+                </div>
+                <div>
+                    <label for="Epasts">Epasts:</label>
+                    <input type="email" name="Epasts" id="Epasts" pattern="">
+                </div>
+                <div>
+                    <label for="password">Parole:</label>
+                    <input type="password" name="parole" id="password" placeholder="Piem.:12345">
+                </div>
+                <div>
+                    <label for="password_repeat">Atkārtot paroli:</label>
+                    <input type="password" name="password_repeat" id="password_repeat">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Par jums</legend>
+
+                <div>
+                    <label for="bio">Jūsu biogrāfija:</label>
+                    <textarea name="bio" id="bio" style="resize: vertical;"></textarea>
+                </div>
+                <div>
+                    <label for="date">Dzimšanas datums:</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div>
+                    <label for="color">Miļāka krāsa:</label>
+                    <input type="color" name="color" id="color">
+                </div>
+                <div>
+                    <label for="file" >Foto:</label>
+                    <input type="file" name="file" id="file" accept="image/*" multiple>
+                </div>
+                <input type="hidden" name="id" value="  ">
+
+
+                <div>
+                    <label for="fav_car">Jūsu auto marka:</label>
+                    <select name="fav_car" id="fav_car" multiple>
+                        <option value=""></option>
+                        <option value="1">Mercedes</option>
+                        <option value="2">BMW</option>
+                        <option value="3">AUDI</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="number" name="skaitlis" id="skaitlis" min="0" max="100" step="5">
+                </div>
+                <div>
+                    <input type="checkbox" name="agree" value="true" id="agree">
+                    <label for="agree">Piekrītu portāla <a href="">lietošanas noteikumiem</a></label>
+                </div>
+
+                <button type="reset">Attīrīt</button>
+                <button type="submit">Reģistrēties</button>
+            </fieldset>
+        </form>
+
+    </section>
+
+    <section>
+        <h2>audio un video</h2>
+        <audio src="./Summer Mix 2022 (1) _ Avicii, Calvin Harris, Kygo, Alok, Robin Schulz, David Guetta, Gryffin.mp3" controls autoplay></audio>
+
+        <video src="" controls></video>
+
+
+        <iframe width="420" height="315"
+         src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HD13eq_Pmp8?si=4xwi20o4EhYDY4dp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        
+    </section>
+    
 
 
     <footer>
