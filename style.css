@@ -18,6 +18,7 @@ nav{
 
 h2{
     text-align: center;
+    margin:30px 10px;
 }
 
 h2.sec1_head2{color:#00b7ff}
@@ -94,6 +95,9 @@ form{
     max-width: 500px;
     margin: 0px auto;
 }
+fieldset{
+    padding: 20px;
+}
 
 input{
     border: 1px solid rgb(3, 3, 3);
@@ -105,3 +109,15 @@ input{
 }
 
 
+/* Darbs ar konteinieriem, Flexbox */
+
+div.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+div.container div{
+    /* width:50% */
+}
