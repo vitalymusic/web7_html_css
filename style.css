@@ -407,7 +407,96 @@ button:active{
     background-position: bottom bottom;
     transition: all 100ms linear;
 }
+ .position{
+        display:none;
+    }
+
+/* Adaptīvais dizains */
+
+@media screen and (max-width:450px) {
+    body{
+        background-color: red;
 
 
-/*  */
+    }
+
+    header h1{
+        font-size: 1.2rem;
+    }
+
+    table{
+        display: none;
+    }
+
+   
+
+    #gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.container{
+         flex-direction: column;
+           p{
+            width:auto;
+           } 
+         img{
+            display: block;
+            margin:10px auto;
+         }
+    }
+    nav{
+        flex-direction: column;
+        position: absolute;
+        top:0px;
+        width:100%;
+        height:auto;
+        gap:10px;
+
+        a{
+            padding:0px;
+        }
+    }
+
+    form{
+        margin:5px 10px;
+        font-size: 1rem;
+        fieldset{
+           width:100%;
+        }
+    }
+}
+@media screen and (min-width:451px) and (max-width:1000px) {
+    body{
+        background-color: rgb(255, 225, 0);
+
+
+    }
+
+    header h1{
+        font-size: 2rem;
+    }
+     #gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    table{
+        width:90%;
+    }
+    div.container{
+         flex-direction: column;
+           p{
+            width:auto;
+           } 
+         img{
+            display: block;
+            margin:10px auto;
+         }
+    }
+}
+
+@media screen and (min-width:1001px) {
+    body{
+        background-color: rgb(81, 0, 255);
+
+    }
+}
 
