@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    font-family: Roboto;
+}
+header{
+    background: linear-gradient(153.43deg, rgba(0, 0, 0, 1) 5.28%,rgba(0, 0, 0, 0.81) 100%);
+    padding-bottom:108px;
+}
+.logo img{
+    width: 129px;
+    height: 129px;
+}
+
+nav a, nav button{
+    color: rgba(255, 255, 255, 1);
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+.order_btn{
+    /* Rectangle 1 */
+    width: 219px;
+    height: 48px;
+    border-radius: 27px;
+    background: rgba(0, 142, 6, 1);
+    text-align: center;
+    border:none;
+}
+
+.header_bottom h1{
+    font-family: "Roboto";
+    font-style: Regular;
+    font-size: 200px;
+    font-weight: 400;
+    line-height: 234px;
+    letter-spacing: -6%;
+    text-align: left;
+    color: #FFFFFF;
+}
+.header_bottom h2{
+    color: rgba(255, 144, 14, 1);
+    font-family: "Roboto";
+    font-style: Light;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 89.69%;
+    letter-spacing: 7%;
+    text-align: left;
+    color:#FF900E;
+    
+}
+
+.oo_letters{
+    color: #FF900E
+}
+
+.services{
+    height: 421px;
+    background: #fd9d3e;
+    padding-top: 78px;
+    padding-bottom: 78px;
+    h3{
+        color: rgba(0, 0, 0, 1);
+        font-family: "Roboto";
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 89.69%;
+        letter-spacing: -1.5%;
+        text-align: center;
+    }
+    p{
+        color: rgba(0, 0, 0, 1);
+        font-family: "Roboto";
+        width: 268px;
+        margin:0 auto;
+       
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 89.69%;
+        letter-spacing: -1.5%;
+        text-align: center;
+    }
+}
+.order_img{
+    width: 99px;
+    height: 99px;
+    margin:0 auto
+}
+
